@@ -1,3 +1,3 @@
 # web
-stuycs html/css semester2
+stuycs html/css semester2  
 :grinning:
