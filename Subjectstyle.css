@@ -3,5 +3,17 @@ body {
 }
 
 h1 {
-  font: serif bold italic 20px;
+  font: 800 50px serif;
+}
+
+li {
+	font: bold 30px sans-serif;
+}
+
+h2 {
+	font: bold 35px monospace;
+}
+
+p {
+	border: yellow groove;
 }
