@@ -21,6 +21,10 @@ h2 {
 	color: #d69f04;
 }
 
+.current {
+	font: bold;
+	color: #c24271;
+}
 
 .Contain {
 	display: block;
