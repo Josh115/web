@@ -22,7 +22,7 @@ h2 {
 }
 
 .current {
-	font: bold;
+	font-weight: bold;
 	color: #c24271;
 }
 
