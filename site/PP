@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<div class="Contain">
     <div class = "HandT">
-    <head>
-		   <link href="Subjectstyle.css" rel="stylesheet">
-	  </head>
+    	<head>
+	  <link href="Subjectstyle.css" rel="stylesheet"   
+	</head>
 		<!-- Table of Contents -->
 		<div class = "margin">
 		<nav class = "toc">
@@ -28,6 +29,6 @@
 			<a href="https://www.canr.msu.edu/nativeplants/pollination/">Bees and Pollination</a>
 		</div>
 		</div>
-    
+    </div>
     
 </html>
