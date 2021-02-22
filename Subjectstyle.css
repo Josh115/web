@@ -17,6 +17,10 @@ h2 {
     font-size: 20px;
 }
 
+.HandT {
+	color: #d69f04;
+}
+
 .Contain {
 	display: block;
     margin: auto;
