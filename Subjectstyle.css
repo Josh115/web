@@ -1,5 +1,7 @@
+
 body {
   background-color: #97f0ed;
+  padding-right: 5px;
 }
 
 h1 {
@@ -7,13 +9,40 @@ h1 {
 }
 
 li {
-	font: bold 30px sans-serif;
+	font: bold 30px monospace;
 }
 
 h2 {
 	font: bold 35px monospace;
+    font-size: 20px;
 }
 
-p {
-	border: yellow groove;
+.Contain {
+	display: block;
+    margin: auto;
+    width: 50%;
+	background-color: #5890e8;
+	padding: 10px 70px 10px 70px;
+}
+
+img {
+	float: right;
+	width: 35%;
+	height: auto;
+	margin: 10px;
+}
+
+a {
+	color: white;
+}
+
+.margin {
+	margin-bottom: 70px;
+}
+
+.para {
+	font-size: 22px;
+	display: inline;
+	padding-bottom: 20px;
+	text-align: justify;
 }
