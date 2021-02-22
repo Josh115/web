@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+		<link href="Subjectstyle.css" rel="stylesheet">
+	</head>
+  
+<div class="Contain">
+  <div class = "HandT">
+  <div class = "margin">
+	<nav class = "toc">
+	<ul> 
+    <li> The Importance of Bees </li>
+		<li> Pollination Process </li>
+		<li> The Decline of the Bees </li>
+	</ul>
+	</nav>
+	</div>
+  </div>
+  
+  
+		<div class = "margin">
+			<img src="https://www.pqsystems.com/eline/2019/05/data-in-everyday-life.png" alt="Bee">
+		<div class= "para">
+			Until the past decade, bee populations have been declining from pesticides, habitat destruction, global warming and parasites.
+			Tens of millions of deadly pesticides have been found in bee pollen. 
+			Bee populations have gone from 6 million hives in the 1940s to 2.4 million hives in 2008, creating a decrease in pollination levels 
+			and crop production. Many pollination-limited crops like apples and cherries could be produced much faster with more bees.
+			How can we help these bees? dunno, I have no idea, none.. at all.
+			<a href="https://www.sciencedaily.com/releases/2020/07/200728201558.htm">Decline of Bees</a>
+		</div>  
+		</div>
+  </div>
+  
+</html>
