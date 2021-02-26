@@ -5,7 +5,12 @@ body {
 }
 
 h1 {
-  font: 800 50px serif;
+  font: 900 60px highway, Georgia;
+  border-style: ridge;
+  border-color: black;
+  display: inline-block;
+  padding: 10px 80px 10px 80px;
+  background-color: gray; 
 }
 
 li {
@@ -21,12 +26,24 @@ h2 {
 	color: #d69f04;
 }
 
+.current {
+	font-weight: bold;
+	color: #c24271;
+}
+
 .Contain {
 	display: block;
     margin: auto;
     width: 50%;
 	background-color: #5890e8;
 	padding: 10px 70px 10px 70px;
+}
+
+.homebee {
+	position: absolute;
+	top: 20px;
+	left: 1050px;
+	width: 20%;
 }
 
 img {
@@ -50,3 +67,5 @@ a {
 	padding-bottom: 20px;
 	text-align: justify;
 }
+
+
