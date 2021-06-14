@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title> Filler </title>
+		<title> FinalCS </title>
 		<link href="FinalStyle.css" rel="stylesheet">
 	</head>
 	
@@ -10,16 +10,29 @@
 	<div class="color">
 	<div class="All">
 		<div class="head">
-		<h1>Final Project</h1>
+		<h1>ChemBond</h1>
 		</div>
 	<!-- Body Some colors: #DBB544 & #43BBD9 OR #5282A9 & \-->
 	
+		<div class="para">
+			Joshua Liu, Period 4
+		</div>
 	
 		<div class="para">
-			Introduction - Chembond is a learning ‘game’ meant to teach basic chemistry to people who do not know anything about chemistry. It is a 2D click and drag game designed to teach about a select few covalently-bonded chemical compounds.
-			Technology - I will be using Pygame to create the graphical part of this game. I need to use it to create the drag and drop part of the game.
-			Gameplay - There is not really a hard objective to the game, in other words, there is no way to ‘win’, but there is a score system to keep track of the player’s actions. The player will drag orbs indicating some basic non-metal elements to a ‘combining box’ where they could then combine the elements to determine the compound that they form together. These element orbs appear randomly. A score will be given depending on the compound created.
-			*There are only 2 elements, Hydrogen and Oxygen. All possible compounds are listed below
+			<h2> Introduction </h2>  Chembond is a learning ‘game’ meant to teach basic chemistry to people who do not know anything about chemistry. It is a 2D click and drag game designed to teach about a select few covalently-bonded chemical compounds.
+			<h2> Instructions </h2> click and drag the orbs as they appear into the "combining-box" in the bottom-middle, once a possible compound's formula has been satisfied in the combining-box, click the check button to get a description and a few points.
+			<h2> Gameplay </h2> There is not really a hard objective to the game, in other words, there is no way to ‘win’, but there is a score system to keep track of the player’s actions. The player will drag orbs indicating some basic non-metal elements to a ‘combining box’ where they could then combine the elements to determine the compound that they form together. These element orbs appear randomly. A score will be given depending on the compound created.
+			<h2> How It works </h2> I've made a csv file for a list of compound names, the amount of points each one is worth, the chemical formula, and their descriptions. This data is used when a compound is created to add to the points, print out the description, and determine whether the elements in the combining-box match up to make any of the compounds in the list. The H and O orbs spawn randomly with their own dictionaries, listing the type of element they are, their position, their velocities/direction, and their size. Their position helps determine whether or not they are inside of the combining-box or touching the edges of the window, in which case, they would bounce back.
+			<h2> Notes </h2> There are only 2 elements, Hydrogen and Oxygen. All possible compounds are in the list below. 
+			<h2> Files </h2> 
+			<ul>
+				<li>final.html: The page for the documentation of the project</li>
+				<li>bonds.txt: the "csv" text document that stores the data for the compounds</li>
+				<li>FinalStyle.css: the css file for final.html</li>
+				<li>images: mostly created in paint3D to use as 'sprites' for program</li>
+				<li>chembond.py: python program that creates the window for the game</li>
+			</ul>
+			<h2> Resources </h2><a href="https://www.pygame.org/docs/">Pygame Documentation</a>
 		</div>
 		
 		<div class="image">
