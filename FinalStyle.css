@@ -20,4 +20,13 @@ body {
 img {
 	width: 70%;
 	height: auto;
+	margin-top: 20px;
+}
+
+a {
+	color: white;
+}
+
+h2 {
+	margin-bottom: 15px;
 }
