@@ -1,0 +1,23 @@
+h1 {
+	font:  50px Georgia;
+}
+
+.para {
+	font: 25px ui-sans-serif;
+}
+
+body {
+	background-color: #F8BE52;
+}
+
+.All {
+	display: block;
+	width: 50%;
+	margin: auto;
+	background-color: #5282A9;
+}
+
+img {
+	width: 70%;
+	height: auto;
+}
